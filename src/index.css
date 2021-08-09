@@ -1,5 +1,28 @@
+.color1 {
+  color: #845EC2;
+}
+
+.color2 {
+  color: #2C73D2;
+}
+
+.color3 {
+  color: #0081CF;
+}
+
+.color4 {
+  color: #0089BA;
+}
+
+.color5 {
+  color: #008E9B;
+}
+
+.color5 {
+  color: #008F7A;
+}
+
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +33,108 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font: 14px 'Roboto', sans-serif;
+  background-color: #d3d3d3;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.login-global {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.login-inputs {
+  background-color: #2C73D2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0 auto 0;
+  width: 40%;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  height: 500px;
+  padding-bottom: 40px;
+}
+
+.login-inputs h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 56px;
+  margin-bottom: 24px;
+}
+
+.login-inputs input {
+  padding: 16px 56px;
+  text-align: center;
+  border-radius: 24px;
+  border: none;
+  margin: 15px;
+}
+
+.login-inputs button {
+  background-color: #008F7A;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 16px 112px;
+  border-radius: 24px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.login-image {
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0 auto 0;
+  width: 40%;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 500px;
+  padding-bottom: 40px;
+}
+
+.login-image img {
+  height: 192px;
+  width: auto;
+  display: block;
+  margin: auto;
+  filter: drop-shadow(2px 3px 6px #121212);
 }
